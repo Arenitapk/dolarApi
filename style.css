@@ -1,0 +1,128 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: rgb(40, 70, 116);
+}
+.contenedorCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(178, 198, 228);
+    width: 80%;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+.contenedorTitulo {
+    display: flex;
+    text-align: left;
+    color: rgb(39, 39, 39);
+}
+.contenedorInputsRow {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.contenedores {
+    display: flex;
+    flex-direction: column;
+}
+.selectores {
+    border: 1px solid rgb(142, 186, 252);
+    border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    cursor: pointer;
+}
+.input1 {
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+.btn {
+    border: none;
+    background: rgb(142, 186, 252);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.btn:hover {
+    cursor: pointer;
+    background: rgb(133, 182, 255);
+    transform: scale(1.05);
+}
+.textoGris {
+    color: rgb(80, 80, 80);
+}
+.resultado {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    gap: 12px;
+    align-items: center;
+}
+/*================================ CARDS ===============================================*/
+.contenedorCards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 15px;
+    margin-top: 20px;
+    gap: 10px;
+}
+.card {
+    background: rgb(178, 198, 228);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    border-radius: 10px;
+}
+.contenedorParteAlta {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.contenedorLogo {
+    background-color: aquamarine;
+    border-radius: 50%;
+    padding: 20px;
+    width: 25%;
+    text-align: center;
+}
+.contenedorParteBaja {
+    display: flex;
+    flex-direction: row;
+    gap: 40%;
+}
+.contenedorDatosCompraVenta {
+    display: flex;
+    flex-direction: column;
+}
+.contenedorCompraVenta {
+    display: flex;
+    flex-direction: column;
+}
+.pCompra {
+    color: red;
+}
+.pVenta {
+    color: green;
+}
+.pCierre {
+    color: rgb(36, 36, 255);
+}
+.contenedorDatosCompraVentaMasCOP {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.contenedorCOPGris {
+    display: flex;
+    flex-direction: column;
+}

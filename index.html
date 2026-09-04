@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cambio divisas</title>
+</head>
+<body>
+    
+    <div class="contenedorCard">
+        <div class="contenedorTitulo">
+            <h1>⇄ Conversor de divisas</h1>
+        </div>
+        <div class="contenedorInputsRow">
+            <div class="contenedores">
+                    <p class="textoGris">monto</p>
+                    <input type="number" id="input1" class="input1" placeholder="Ingrese la cantidad">
+            </div>
+                <div class="contenedores">
+                    <p class="textoGris">Moneda</p>
+                    <select class="selectores" id="selectDivisas">
+                        <option>Seleccione...</option>
+                    </select>
+                </div>
+                <div class="contenedores">
+                    <p class="textoGris">Moneda a cambiar</p>
+                    <select class="selectores" id="selectDivisa2">
+                        <option>Seleccione...</option>
+                    </select>
+                </div>
+                    <button id="btn" class="btn">Consultar</button>
+                <div class="resultado" id="resultado"></div>
+            </div>
+    </div>
+
+    <div class="contenedorCards" id="contenedorCards">
+        
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
